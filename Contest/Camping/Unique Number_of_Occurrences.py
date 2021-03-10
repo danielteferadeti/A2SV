@@ -14,5 +14,5 @@ class Solution:
                     print(str(occCount))
                     counter = 0
                 else:
-                    return False       
+                    return False
         return True
