@@ -11,8 +11,8 @@ class Solution:
         targetSum -= root.val
         if root.left == None and root.right == None:
             return targetSum == 0
-        
+
         return self.dfs(root.left, targetSum) or self.dfs(root.right, targetSum)
-    
+
     def hasPathSum(self, root: TreeNode, targetSum: int) -> bool:
         return self.dfs(root, targetSum)
