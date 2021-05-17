@@ -25,4 +25,4 @@ class Solution:
             stack.append(prev)
             head.next = lastElem
             lastElem.next = temp
-            head = temp 
+            head = temp
