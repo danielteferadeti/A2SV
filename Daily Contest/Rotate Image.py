@@ -14,7 +14,7 @@ class Solution:
                     matrix[j][i] = temp
                     visited.add((i,j))
                     visited.add((j,i))
-                
+        #
         # print(matrix)
         for k in range(len(matrix)):
             ptr1,ptr2 = 0,len(matrix[0])-1
