@@ -3,7 +3,6 @@ class Solution:
     def numberOfArithmeticSlices(self, nums: List[int]) -> int:
         subarray = []
         diff = sys.maxsize
-        
         if(len(nums) < 3):
             return 0
         for slow in range(len(nums)):
