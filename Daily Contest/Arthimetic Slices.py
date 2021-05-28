@@ -20,5 +20,4 @@ class Solution:
                     break
                 if len(inner)>= 3:
                     subarray.append(inner)
-                    
         return len(subarray)
